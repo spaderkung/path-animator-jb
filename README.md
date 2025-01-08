@@ -1,3 +1,25 @@
+# Path animator
+<ul>
+<li>You have a path and want to animate something going around the path.</li>
+<li>The path animator returns the coordinate travelling around.</li>
+<li>Together with the normal so any travelling object can point correctly.</li>
+</ul>
+
+## Normals
+<ul>
+<li>
+  The red path has smooth normals. Even if the path is straight, the surface is circular.
+</li>
+<li>
+  The yellow path also has smooth normals, but since there is an extra path node the smoothing is only around the corners.
+</li>
+<li>
+  The blue paths have sharpened normals. Even with no extra points the normal is straight unless close to a path node.
+</li>
+</ul>
+
+## Example
+![](https://github.com/spaderkung/path-animator-jb/blob/main/demo/demo_full_3.gif)
 
 @example
  * //This will complete an animation in 5 seconds and adapt to changes in the curve.
