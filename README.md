@@ -3,6 +3,7 @@
 <li>You have a path and want to animate something going around the path.</li>
 <li>The path animator returns the coordinate travelling around.</li>
 <li>Together with the normal so any travelling object can point correctly.</li>
+<li>It has a built-in debug draw of the path and the point travelling around.</li>
 </ul>
 
 ## Normals
@@ -16,9 +17,21 @@
 <li>
   The blue paths have sharpened normals. Even with no extra points the normal is straight unless close to a path node.
 </li>
+<li>
+  It can flip the normals for you.
+</li>
 </ul>
 
-## Example
+## Speed
+<ul>
+<li>
+  Set a speed in pixels / s
+  Or a speed in laps / s
+  The path animator can respond to changes in the path and update the animator position if the path is made longer or shorter.
+</li>
+</ul>
+  
+  ## Example
 ![](https://github.com/spaderkung/path-animator-jb/blob/main/demo/demo_full_3.gif)
 
 @example
