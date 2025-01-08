@@ -26,9 +26,11 @@
 <ul>
 <li>
   Set a speed in pixels / s
-  Or a speed in laps / s
-  The path animator can respond to changes in the path and update the animator position if the path is made longer or shorter.
 </li>
+<li>
+  Or a speed in laps / s
+<li>
+  The path animator can respond to changes in the path and update the animator position if the path is made longer or shorter.
 </ul>
   
   ## Example
